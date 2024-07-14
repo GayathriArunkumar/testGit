@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>MY PROJECT</title>
+
+	<style>
+		
+		body
+		{
+
+
+		background-color: gray;
+	}
+
+
+		h1 {
+			color: skyblue;
+			text-align: center;
+			font-size: 20px;
+			font-family: verdana;
+		}
+
+		h2 {
+			color: lightpink;
+			text-align: center;
+			font-size: 20px;
+			font-family: verdana;
+		}
+
+		p{
+			color:orange;
+			font-size: 16px;
+			font-family: verdana;
+		}
+
+
+	</style>
+
+
+</head>
+<body>
+
+<h1>Project1</h1>
+
+<h2>Project2</h2>
+<p>
+
+	The content of the project is very mature part in this session to conclude the section.
+</p>
+
+<ul style="list-style-type: square;">
+	
+<li> Pro1</li>
+<li> Pro2</li>
+<li> Pro3</li>
+<li> Pro4</li>
+
+</ul>
+
+
+<script type="text/javascript">
+	var x = ['arun','kumar',"gayu","aditi","shree"];
+	var y = [{firstName:"arun", lastName:"kumar"},{firstName:"gayu", lastName:"shalu"},{firstName:"aditi", lastName:"shree"}]
+	console.log(x);
+	console.log(x[2]);
+	console.log(y);
+	console.log(y["firstName"]);
+</script>
+</body>
+</html>
+
+<!-- {firstName:["John","arun",], lastName:"Doe"}; -->
+
+<!-- [{firstName:"arun", lastName:"kumar"},{firstName:"gayu", lastName:"shalu"},{firstName:"aditi", lastName:"shree"}] -->
+
+
+<input type="number" name="value1" id="value1">
+<input type="number" name="value2" id="value2">
+<button id="add" onclick="add()">Add</button>
+
+<p id="result">yufhghd</p>
+
+<script type="text/javascript">
+	function add() {
+		var val1 = document.getElementById('value1').value;
+		var val2 = document.getElementById('value2').value;
+
+		document.getElementById("result").innerHTML = (val1  + val2);
+	}
+</script>
